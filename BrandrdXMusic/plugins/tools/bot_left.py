@@ -15,11 +15,11 @@ from BrandrdXMusic.utils.database import get_assistant
 from BrandrdXMusic.utils.database import delete_served_chat
 
 photo = [
-    "https://graph.org/file/872dc8af2a36bed43b9b6.jpg",
-    "https://graph.org/file/f4b34351a59061ba1c61b.jpg",
-    "https://graph.org/file/3fb3f4c8a1250c6a50af1.jpg",
-    "https://graph.org/file/eabab7e8a3e5df87a0b04.jpg",
-    "https://graph.org/file/427f4869a158126957747.jpg",
+    "https://te.legra.ph/file/ca8215fe9fc50fa7304a8.jpg",
+    "https://te.legra.ph/file/228dbb2b39a04f527b395.jpg",
+    "https://te.legra.ph/file/f17ef460d110a1a74aa17.jpg",
+    "https://te.legra.ph/file/ab427471fb663d2c5f219.jpg",
+    "https://te.legra.ph/file/ab427471fb663d2c5f219.jpg",
 ]
 
 
