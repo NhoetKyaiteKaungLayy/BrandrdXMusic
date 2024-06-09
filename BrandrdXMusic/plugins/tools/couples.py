@@ -21,7 +21,7 @@ async def couples(app, message):
     if message.chat.type == ChatType.PRIVATE:
         return await message.reply_text("ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ɪs ᴏɴʟʏ ғᴏʀ ɢʀᴏᴜᴘs.")
     try:
-        msg = await message.reply_text("❣️")
+        msg = await message.reply_text("မျှားနတ်မောင်...")
         list_of_users = []
 
         async for i in app.get_chat_members(message.chat.id, limit=50):
@@ -80,9 +80,9 @@ async def couples(app, message):
         img.save(f"test_{cid}.png")
 
         TXT = f"""
-**ᴛᴏᴅᴀʏ's sᴇʟᴇᴄᴛᴇᴅ ᴄᴏᴜᴘʟᴇs 🌺 :
+❖ᴛᴏᴅᴀʏ's sᴇʟᴇᴄᴛᴇᴅ ᴄᴏᴜᴘʟᴇs❖ :
 
-{N1} + {N2} = ❣️
+{N1} + {N2} = Lσʋҽ Yσυ Fσɾҽʋҽɾ
 
 **
 """
@@ -91,7 +91,7 @@ async def couples(app, message):
             f"test_{cid}.png",
             caption=TXT,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="ᴍʏ ᴄᴜᴛᴇ ᴅᴇᴠᴇʟᴏᴘᴇʀ 🌋", user_id=OWNER)]]
+                [[InlineKeyboardButton(text="ᴍʏ ᴄᴜᴛᴇ ᴅᴇᴠᴇʟᴏᴘᴇʀ", user_id=OWNER)]]
             ),
         )
         await msg.delete()
