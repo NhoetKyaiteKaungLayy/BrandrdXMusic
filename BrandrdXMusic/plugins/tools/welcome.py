@@ -86,13 +86,14 @@ async def greet_group(_, member: ChatMemberUpdated):
             member.chat.id,
             photo=welcomeimg,
             caption=f"""
-            Wҽʅƈσɱҽ Tσ Oυɾ Gɾσυρ
-➖➖➖➖➖➖➖➖➖➖➖
+            ❅────✦ ᴡᴇʟᴄᴏᴍᴇ ✦────❅
+▰▰▰▰▰▰▰▰▰▰▰▰▰
 ๏ Nαɱҽ ➠ {user.mention}
 ๏ Iԃ ➠ {user.id}
 ๏ Uʂҽɾɳαɱҽ ➠ @{user.username}
 ๏ MαԃҽႦყ ➠ @NhoeKyaiteKaungLayy
-➖➖➖➖➖➖➖➖➖➖➖
+▰▰▰▰▰▰▰▰▰▰▰▰▰
+❅─────✧❅✦❅✧─────❅
 """,
             reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(f"⦿ ᴀᴅᴅ ᴍᴇ ⦿", url=f"https://t.me/Forbiddenmusic_bot?startgroup=true")]])
         )
