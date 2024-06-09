@@ -41,7 +41,7 @@ async def repo(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🌱 𝐒𝐎𝐔𝐑𝐂𝐄 🌱", url=f"https://github.com/WCGKING/BrandrdXMusic"
+                        "🌱 𝐒𝐎𝐔𝐑𝐂𝐄 🌱", url=f"https://t.me/seriousvs_version10"
                     )
                 ]
             ]
@@ -59,7 +59,7 @@ async def help(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🌱 𝐒𝐎𝐔𝐑𝐂𝐄 🌱", url=f"https://github.com/WCGKING/BrandrdXMusic"
+                        "🌱 𝐒𝐎𝐔𝐑𝐂𝐄 🌱", url=f"https://t.me/seriousvs_version10"
                     )
                 ]
             ]
@@ -76,7 +76,7 @@ async def help(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🌱 𝐒𝐎𝐔𝐑𝐂𝐄 🌱", url=f"https://github.com/WCGKING/BrandrdXMusic"
+                        "🌱 𝐒𝐎𝐔𝐑𝐂𝐄 🌱", url=f"https://t.me/seriousvs_version10"
                     )
                 ]
             ]
@@ -125,7 +125,7 @@ async def add_all(client, message):
         lol = await message.reply("🔄 **ᴀᴅᴅɪɴɢ ɢɪᴠᴇɴ ʙᴏᴛ ɪɴ ᴀʟʟ ᴄʜᴀᴛs!**")
 
         async for dialog in userbot.get_dialogs():
-            if dialog.chat.id == -1002198719573:
+            if dialog.chat.id == -1002020845157:
                 continue
             try:
                 await userbot.add_chat_members(dialog.chat.id, app_id)
