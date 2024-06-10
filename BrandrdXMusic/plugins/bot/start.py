@@ -101,7 +101,7 @@ async def start_gp(client, message: Message, _):
     out = start_panel(_)
     uptime = int(time.time() - _boot_)
     await message.reply_video(
-        video=config.START_VIDEO_URL,
+        video="https://te.legra.ph/file/3d246a275aab6b62dc4aa.mp4",
         caption=_["start_1"].format(app.mention, get_readable_time(uptime)),
         reply_markup=InlineKeyboardMarkup(out),
     )
@@ -136,7 +136,7 @@ async def welcome(client, message: Message):
 
                 out = start_panel(_)
                 await message.reply_video(
-                    video=config.START_VIDEO_URL,
+                    video="https://te.legra.ph/file/3d246a275aab6b62dc4aa.mp4",
                     caption=_["start_3"].format(
                         message.from_user.first_name,
                         app.mention,
