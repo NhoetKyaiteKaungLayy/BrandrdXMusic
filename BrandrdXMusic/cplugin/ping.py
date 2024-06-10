@@ -13,8 +13,8 @@ from BrandrdXMusic.utils import get_readable_time
 @Client.on_message(filters.command("ping"))
 async def ping_clone(client: Client, message: Message):
     i = await client.get_me()
-    hmm = await message.reply_photo(
-        photo=PING_IMG_URL, caption=f"{i.mention} ɪs ᴘɪɴɢɪɴɢ..."
+    hmm = await message.reply_video(
+        video="https://te.legra.ph/file/3d246a275aab6b62dc4aa.mp4", caption=f"{i.mention} ɪs ᴘɪɴɢɪɴɢ..."
     )
     upt = int(time.time() - StartTime)
     cpu = psutil.cpu_percent(interval=0.5)
@@ -36,9 +36,9 @@ async def ping_clone(client: Client, message: Message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("❄ sᴜᴘᴘᴏʀᴛ ❄", url=SUPPORT_CHAT),
+                    InlineKeyboardButton(" sᴜᴘᴘᴏʀᴛ ", url=SUPPORT_CHAT),
                     InlineKeyboardButton(
-                        "✨ 𝙰𝙳𝙳 𝙼𝙴✨",
+                        " 𝙰𝙳𝙳 𝙼𝙴 ",
                         url=f"https://t.me/{i.username}?startgroup=true",
                     ),
                 ],
