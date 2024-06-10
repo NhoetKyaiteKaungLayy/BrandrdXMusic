@@ -22,8 +22,8 @@ PRIVATE_BOT_MODE = getenv("PRIVATE_BOT_MODE", None)
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 900))
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", "-1002020845157"))
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002020845157"))
+LOGGER_ID = int(getenv("LOGGER_ID", "-1002122496259"))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002122496259"))
 
 # Get this value from @BRANDRD_ROBOT on Telegram by /id
 OWNER_ID = int(getenv("OWNER_ID"))
@@ -36,7 +36,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/nhoetkyaitekaunglay1050/BrandrdXMusic",
+    "https://github.com/NhoetKyaiteKaungLayy/BrandrdXMusic",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
@@ -90,13 +90,13 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://te.legra.ph/file/df2c94f03a0faf9eca66d.jpg"
+    "START_VIDEO_URL", "https://graph.org/file/12a5fd0c6586472ab9be2.mp4"
 )
-PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://te.legra.ph/file/df2c94f03a0faf9eca66d.jpg"
+PING_VIDEO_URL = getenv(
+    "PING_VIDEO_URL", "https://graph.org/file/12a5fd0c6586472ab9be2.mp4"
 )
 PLAYLIST_IMG_URL = "https://te.legra.ph/file/14eb59ea7d31229d8d751.jpg"
-STATS_IMG_URL = "https://te.legra.ph/file/df2c94f03a0faf9eca66d.jpg"
+STATS_VIDEO_URL = "https://graph.org/file/12a5fd0c6586472ab9be2.mp4"
 TELEGRAM_AUDIO_URL = "https://te.legra.ph/file/923c1faac33d8c70335dc.jpg"
 TELEGRAM_VIDEO_URL = "https://te.legra.ph/file/6c66f8b192532fe758e82.jpg"
 STREAM_IMG_URL = "https://te.legra.ph/file/ebc4dc6357be06e08a3ed.jpg"
