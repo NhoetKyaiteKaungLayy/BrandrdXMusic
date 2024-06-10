@@ -89,7 +89,7 @@ autoclean = []
 confirmer = {}
 
 
-START_IMG_URL = getenv(
+START_VIDEO_URL = getenv(
     "START_VIDEO_URL", "https://graph.org/file/78d31ae760aa6c1643f8c.mp4"
 )
 PING_VIDEO_URL = getenv(
