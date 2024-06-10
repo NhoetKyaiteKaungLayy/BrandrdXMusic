@@ -16,7 +16,7 @@ from config import BANNED_USERS, PING_IMG_URL
 async def ping_com(client, message: Message, _):
     start = datetime.now()
     response = await message.reply_video(
-        video=PING_VIDEO_URL,
+        video="https://te.legra.ph/file/3d246a275aab6b62dc4aa.mp4",
         caption=_["ping_1"].format(app.mention),
     )
     pytgping = await Hotty.ping()
